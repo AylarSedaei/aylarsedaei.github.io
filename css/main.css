@@ -1,0 +1,461 @@
+.small-caps {
+    -ms-font-feature-settings: "smcp";
+    -moz-font-feature-settings: "smcp";
+    -webkit-font-feature-settings: "smcp";
+    font-feature-settings: "smcp";
+}
+
+.text-figures { 
+    -moz-font-feature-settings: 'onum';
+    -ms-font-feature-settings: 'onum';
+    -webkit-font-feature-settings: 'onum';
+    font-feature-settings: 'onum';
+}
+.CV-button {
+    border: none;
+    border-radius: 6px;
+    background-color: #0c2238;
+    padding: 12px;
+    font-size: 12px;
+    height:30px;
+    letter-spacing: 3px;
+    color: white;
+    font-family:  'sans-serif';
+}
+.CV-button:hover{
+    background-color: #32474a;
+}
+body{
+    font-family: 'Times',  sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #dbe0df;
+    background-image:  repeating-linear-gradient(#ffffff, rgb(167, 207, 240) );
+    
+}
+/* @font-face {
+    font-family: 'Segoe';
+    src: url('fonts/Segoe.eot?#’) format(‘eot’);
+        url(‘fonts/Segoe.woff’) format(‘woff’); 
+        url(‘fonts/Segoe.ttf’) format(‘truetype’);  
+} */
+
+h1, h2, h3, h4, h5, h6{
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: Cooper;
+}
+h1{
+    color: #0c2238;
+    font-size: 36px;
+}
+h3{
+    font-size: 24px;
+}
+h6{
+    font-size: 22px;
+    font-weight: 300;
+    color: #ffffff;
+}
+p, .item{
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.justify {
+    text-align: justify;
+}
+
+a{
+    color: #000;
+}
+
+.strong {
+    font-weight: 600;
+}
+.emph {
+    font-style: italic;
+    font-weight: bold;
+    /* text-align: center; */
+}
+
+.emph-thesis {
+    font-family: 'Segoe Print';
+    /* font-style: italic; */
+    font-weight: bold;
+    align-items: center;
+}
+
+.resume-link{
+    color: #0E3A68ff;
+    text-decoration:none
+}
+
+.author__urls {
+    display: none;
+    position: absolute;
+    right: 0;
+    margin-top: 15px;
+    padding: 10px;
+    list-style-type: none;
+    border: 1px solid #f2f3f3;
+    border-radius: 4px;
+    background: #fff;
+    z-index: -1;
+    box-shadow: 0 0 10px rgb(0 0 0 / 25%);
+    cursor: default;
+}
+/* list-icons{list-style:none;margin:0;padding:0;overflow:hidden}.list-icons li{float:left;margin-right:5px} */
+.fa-icon{
+    color:#466176ff;
+    width:52px;
+    height:52px;
+    display:inline-block;
+    line-height:39px;
+    font-size:25px;
+    text-align:center}
+
+.fa-icon .fa-icon-2x{
+    color:#466176ff;
+    width:50px;
+    height:50px;
+    line-height:50px;
+    font-size:24px
+}
+.id_tags{
+    margin-top: 5px;
+    padding: 2px 4px;
+    font-size: 75%;
+    color: rgb(255, 255, 255);
+    background-color: #3C607Aff;
+    border-radius: 4px;
+}
+.logo{
+    display: inline-block;
+    position: fixed;
+    left: 10px;
+    /* top: 10px; */
+    z-index: 1000;
+    width: 44px;
+    height: 48px;
+    background: #0c2238;
+    color: #dbe0df;
+    font-family: Segoe Print;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: none;
+    text-align: center;
+}
+.logo:hover{
+    background: #000;
+}
+.logo-initial{
+    position: relative;
+    top: 8px;
+}
+.special-menu{
+    display: inline-block;
+    position: fixed;
+    right: 3%;
+    bottom: 5%;
+    z-index: 0;
+}
+.special-link{
+    background-color: #1c292b;
+    color: #FFF;
+    border: 1px solid #888;
+    font-style: italic;
+    text-decoration: none;
+    padding: 5px 20px;
+    display: block;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 3px;
+    margin-bottom: 5px;				
+}
+.special-link:hover{
+    background-color: #000;
+}
+.scroll-menu{
+    display: inline-block;
+    position: fixed;
+    right: 3%;
+    top: 15%;
+    z-index: 0;
+}
+.scroll-menu .scroll-links{ 
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: Segoe Print ;
+    display: block;
+    text-decoration: none;
+    padding: 10px 0px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #0c2238;
+    text-align: center;
+    border-bottom: 1px solid #000000;
+    text-transform: uppercase;
+}
+.scroll-menu .scroll-links.last-link{
+    border-bottom: none;
+}
+.full-page{
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    background-color: #dbe0df;
+    position: relative;
+}
+
+.full-page h1, .full-page a{
+    font-family: Segoe Print;
+}
+
+.full-page h6 {
+    font-family: Segoe Print;
+}
+
+.full-page a{
+    text-decoration: none;
+    color: rgb(201, 232, 255);
+}
+
+.full-page h1, .full-page h6{
+    margin: 0px;
+    transform: scale(1.1);
+}
+
+.full-page h1{
+    font-size: 2.75em;
+    line-height: 1.2em;
+}
+
+.full-page h6{
+    font-size: 1.25em;
+    color: rgb(255, 255, 255);
+}
+.uppercase{
+    text-transform: uppercase;
+}
+
+.left{
+    /* width: 50%;
+    height: 100%; */
+    display: inline-block;
+    float: left;
+    text-align: center;
+}
+
+.left.white{
+    width: 75%;
+    height: 100%;
+    background-image: url('../images/bg.jpg');
+}
+
+.left.black{
+    width: 25%;
+    height: 100%;
+    background-color: rgb(0, 14, 30);
+    opacity: 1;
+    background-size: 4px 4px;
+    background-image: repeating-radial-gradient(45deg, #1D3446ff 0, #1D3446ff 0.4px, #1D3446ff 0, #1D3446ff 50%);
+}
+
+.wrapper .container{
+    display: table;
+       width: 100%;
+       height: 100%;
+}
+
+.myName{
+    color: rgb(201, 232, 255);
+}
+
+.myInfo{
+    color: rgb(255,255,255);
+}
+
+.dummy .myImg{
+    transform:scale(0.9);
+}
+
+.wrapper .container .dummy{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    align-items: center;
+    align-content: center;
+    /* padding: 0px 0%; */
+}
+.full-page a.button{
+    font-family: Comic Sans MS;
+    background-color: #0c2238;
+    text-decoration: none;
+    width: 200px;
+    padding: 10px 0px;
+    margin: 10px 0px;
+    border: 1px solid;
+    display: inline-block;
+    text-transform: uppercase;
+    /* background: repeating-linear-gradient( 45deg, #0c2238, #0c2238 2px, #000000 2px, #000000 10px ); */
+}
+
+.full-page a.button.white{
+    color: #FFF;
+}
+
+.full-page a.button.white:hover{
+    background: #32474a;
+}
+.content{
+    width: 70%;
+    margin: 10px 150px 150px 100px;
+    padding-left: 0px;
+
+}
+.item{
+    margin-bottom: 30px;
+}
+.item .college-name, .item .skill-type{
+    font-weight: 400;
+}
+.item .year-address, .item .skills{
+    color: #000;
+}
+.grid-collection .item{
+    margin-bottom: 0px;
+    padding: 20px 0px;
+    border-bottom: 1px solid grey;
+}
+.grid-item{
+    position: relative;
+    margin-bottom: 50px;
+}
+.grid-item .content-wrapper{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.4);
+    opacity: 0;
+    transition: opacity .3s ease-out;
+    -moz-transition: opacity .3s ease-out;
+    -webkit-transition: opacity .3s ease-out;
+    -o-transition: opacity .3s ease-out;
+    text-align: center;
+}
+.grid-item:hover .content-wrapper{
+    opacity: 1;
+}
+.grid-item .content-wrapper .button{
+    background: #FFF;
+    padding: 10px 25px;
+    color: #000;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 4px;
+    position: relative;
+    top: -40px;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+.grid-item:hover .content-wrapper .button{
+    top: 50%;
+}
+.contacts a{
+    margin-right: 10px;
+}
+a.email{
+    text-decoration: none;
+}
+.brief{
+    font-size: 14px;
+    margin-top: 5px;
+}
+.item .link{
+    margin-top: 5px;
+}
+
+.project-title{
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.project-description{
+        margin-top: 10px;
+        color: #000;
+        font-size: 19px;
+        font-weight: 300;
+}
+.project-links{
+    font-size: 14px;
+    font-weight: 800;
+    margin-top: 10px;
+}
+.img-circle {
+    
+    width: 70%;
+    height: auto;
+    border-radius: 50%;
+}
+.skill{
+    line-height: 35px;
+    font-weight: 400;
+}
+.honor{
+    margin-top: 10px;
+    margin-left: -5px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+.projects{
+    margin-top: 10px;
+    margin-left: -15px;
+    font-weight: 400;
+    font-size: medium;
+    line-height: 25px;
+}
+.projects-description{
+    margin-top: 5px;
+    color: #000;
+    font-size: 14px;
+    font-weight: 300;
+}
+/* Small Screens ----------- */
+@media only screen and (max-width: 967px){
+    .special-menu .special-link{
+        font-size: 12px;
+        padding: 5px;
+    }
+    .scroll-menu{
+        display: none;
+    }
+    .left{
+        width: 100%;
+        height: 50%;
+    }
+    .wrapper .container .dummy{
+        padding: 0;
+    }
+}
+@media only screen and (max-height: 480px){
+    .scroll-menu{
+        display: none;
+    }
+    .left{
+        height: auto;
+    }
+}
+
+.twoul {
+    list-style-type: disc;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    columns: 2;
+    list-style-position: inside;//this is important addition
+}
